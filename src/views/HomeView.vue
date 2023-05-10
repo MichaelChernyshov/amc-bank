@@ -1,6 +1,11 @@
-<script>
+<script setup>
+import WelcomeComp from '../components/WelcomeComp.vue'
 </script>
 
 <template>
-  <h1>Main page of website</h1>
+  <WelcomeComp></WelcomeComp>
 </template>
+
+<style>
+
+</style>
