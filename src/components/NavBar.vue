@@ -6,7 +6,6 @@
             </span>
         </a>
     </div>
-    <!-- <a href="/"><img src="../assets/images/logoBlack.svg" alt="Some" srcset="../assets/images/logoBlack.svg"></a> -->
 </template>
 
 <style lang="scss">
