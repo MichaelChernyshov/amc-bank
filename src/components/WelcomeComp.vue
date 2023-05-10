@@ -9,7 +9,7 @@
 </div>
 </template>
 
-<style>
+<style lang="scss">
 .welcome-title {
     font-weight: 700;
 }
