@@ -13,6 +13,7 @@ import NavBar from './components/NavBar.vue'
         <RouterLink to="/loans">Loans</RouterLink>
         <RouterLink to="/deposit">Deposit</RouterLink>
         <RouterLink to="/sim-card">Sim-Card</RouterLink>
+        <RouterLink to="/login">Login</RouterLink>
       </nav>
     </div>
   </header>
