@@ -5,7 +5,3 @@ import WelcomeComp from '../components/WelcomeComp.vue'
 <template>
   <WelcomeComp></WelcomeComp>
 </template>
-
-<style>
-
-</style>

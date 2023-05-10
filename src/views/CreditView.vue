@@ -1,9 +1,6 @@
+<script setup>
+</script>
+
 <template>
-  <div>
-    <h1>Credit card</h1>
-  </div>
+  <h1>Credit card</h1>
 </template>
-
-<style>
-
-</style>

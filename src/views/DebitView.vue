@@ -1,10 +1,6 @@
+<script setup>
+</script>
+
 <template>
-    <div>
-      <h1>Debit card</h1>
-    </div>
-  </template>
-  
-  <style>
-  
-  </style>
-  
+  <h1>Debit card</h1>
+</template>
