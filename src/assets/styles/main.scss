@@ -1,1 +1,12 @@
 @import './base.scss';
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: white;
+    font-family: Montserrat, 'Futura Medium', Overpass, sans-serif;
+    background-position: 0px 0px,0px 0px,0px 0px;
+    background-image: radial-gradient(100% 100% at -22% -14%, #1D38C2FF 0%, #FF000000 85%),radial-gradient(100% 100% at 116% 118%, #1D38C2FF 0%, #FF000000 85%),linear-gradient(0deg, #1E1E20FF 0%, #111010FF 94%);
+}

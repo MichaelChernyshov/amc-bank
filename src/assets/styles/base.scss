@@ -1,4 +1,11 @@
- *:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
+$blue-dark: #293556;
+$blue-dark-soft: #2E4583;
+$blue-soft: #3E60C1;
+$blue-clear: #5983FC;
+
+
+
+*:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
   all: unset;
   display: revert;
 }
