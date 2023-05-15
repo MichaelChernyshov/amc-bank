@@ -21,23 +21,21 @@
                     <p>Enter</p>
                 </a>
             </div>
-        </div>
-
-        
-        
+        </div>   
     </div>
-      
-
   </header>
-        
 </template>
 
 <style lang="scss">
-    .navigation {
+    header {
         padding: 2%;
+    }
+    .navigation {
+        font-size: $text-small;
         display: flex;
         justify-content: space-between;
-        color: white;
+        color: rgba(255, 255, 255, 0.5);
+        padding-bottom: 1%;
     }
 
     .nav-logo {
@@ -57,7 +55,10 @@
 
             a {
                 margin-left: 2rem;
-                font-size: 10px;
+                
+                &:hover {
+                    color: white;
+                }
 
                 &:first-child {
                     margin-left: 0;
@@ -75,10 +76,13 @@
         border: 1px solid rgb(12, 24, 81);
         border-radius: 28px;
         font-family: Arial;
-        color: #ffffff;
-        font-size: 10px;
-        padding: 10px 20px 10px 20px;
+        padding: 7px 15px 7px 15px;
         text-decoration: none;
+
+        &:hover {
+            color: white;
+            border: 1px solid rgb(25, 48, 164);
+        }
         }
     }
 </style>
