@@ -1,6 +1,7 @@
 <script setup>
+import DebitCard from '../components/DebitCard.vue'
 </script>
 
 <template>
-  <h1>Debit card</h1>
+  <DebitCard></DebitCard>
 </template>

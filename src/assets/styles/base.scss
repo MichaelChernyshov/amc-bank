@@ -7,6 +7,8 @@ $text-small: 8px;
 $text-medium: 12px;
 $text-large: 16px;
 
+$title-text-large: 28px;
+
 
 *:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
   all: unset;
