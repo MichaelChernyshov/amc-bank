@@ -1,47 +1,51 @@
 <script>
 export default {
-    data() {
-        return {
-            isBtnPopCloseFocused: false
-        }
-    },
-    methods: {
-        toggleToItemEditForm() {
-        console.log(this.$refs.editButton);
-        this.isEditing = true;
-        }
-    }
-}
+    data: () => ({ value: 0 }),
+  }
 </script>
 
 <template>
-    <main>
-        <article>
-            <h1 class="debit__welcome">Debit cards</h1>
+    <main class="debit__welcome-container">
+        <article class="debit__welcome">
+            <h1>Debit cards</h1>
             <p>Using debit card is the best way to pay for everything you want and after all - receive a cashback.</p>
         </article>
 
-        <section>
-            <div class="debit__buttons">
-                <button type="button" class="button" ref="normButton" @click="toggleToItemEditForm">Normal</button>
-                <button type="button" class="button" ref="premButton" @click="toggleToItemEditForm">Premium</button>
-            </div>
+        <section class="debit__buttons">
+            <v-btn variant="plain" size="x-small">Normal</v-btn>
+            <v-btn variant="plain" size="x-small">Premium</v-btn>
         </section>
     </main>
 
 </template>
 
 <style lang="scss">
+.debit__welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.debit__welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    padding-bottom: 2%;
+    
+    
+    h1 {
+        font-weight: 900;
+    }
 
+    p {
+        text-align: center;
+        font-weight: 300;
+    }
+}
 .debit__buttons {
     display: flex;
     justify-content: space-around;
     background-color: grey;
-    width: 30%;
-    height: 20px;
-
-    .button:focus {
-        background-color: red;
-    }
+    width: 40%;
 }
 </style>
