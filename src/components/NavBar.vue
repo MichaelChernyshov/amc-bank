@@ -75,7 +75,6 @@
         .btn-enter {
         border: 1px solid rgb(12, 24, 81);
         border-radius: 28px;
-        font-family: Arial;
         padding: 7px 15px 7px 15px;
         text-decoration: none;
 

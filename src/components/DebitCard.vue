@@ -12,8 +12,9 @@ export default {
         </article>
 
         <section class="debit__buttons">
-            <v-btn variant="plain" size="x-small">Normal</v-btn>
-            <v-btn variant="plain" size="x-small">Premium</v-btn>
+            <v-btn variant="plain" size="x-small">Usual Debit</v-btn>
+            <v-divider vertical></v-divider>
+            <v-btn variant="plain" size="x-small">Premium Debit</v-btn>
         </section>
     </main>
 
@@ -44,8 +45,14 @@ export default {
 }
 .debit__buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: grey;
-    width: 40%;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.v-btn--size-x-small {
+    padding: 0 15px;
+    border: 1px solid grey;
+    border-radius: 10px;
 }
 </style>
