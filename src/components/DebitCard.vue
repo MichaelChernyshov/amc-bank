@@ -46,13 +46,12 @@ export default {
 .debit__buttons {
     display: flex;
     justify-content: space-evenly;
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.5);
     border: 1px solid grey;
     border-radius: 10px;
 }
 .v-btn--size-x-small {
     padding: 0 15px;
-    border: 1px solid grey;
     border-radius: 10px;
 }
 </style>
