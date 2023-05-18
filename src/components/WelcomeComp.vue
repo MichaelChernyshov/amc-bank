@@ -4,8 +4,9 @@
 <template>
 <main class="main">
     <article class="main__main-info">
-        <h1 class="main__welcome">Pay everywhere you want with a cashback</h1>
-        <div class="main__donload-buttons">
+        <div class="main__description">
+            <h1 class="main__welcome">Pay everywhere you want with a cashback</h1>
+            <div>
             <v-btn variant="outlined" rounded="xl" size="x-small" prepend-icon="mdi-apple" class="mr-3">
                 AppStore
             </v-btn>
@@ -13,6 +14,8 @@
               Google Play
             </v-btn>
         </div>
+        </div>
+            <img src="../assets/images/cards/two.svg" alt="qweeqwe" class="two-cards__image">
     </article>
 </main>
 </template>
@@ -26,13 +29,27 @@
     align-items: center;
 
     .main__main-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .main__description {
+            display: flex;
+            flex-direction: column;
+            padding-left: 5%;
+        }
 
         .main__welcome {
-            max-width: 40%;
+            max-width: 90%;
             word-spacing: 3px;
             font-size: $title-text-large;
             font-weight: 300;
         }
     }
+}
+
+.two-cards__image {
+    width: 55%;
+    height: 55%;
 }
 </style>
