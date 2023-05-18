@@ -31,7 +31,6 @@
             max-width: 40%;
             word-spacing: 3px;
             font-size: $title-text-large;
-            font-family: 'Poppins', sans-serif;
             font-weight: 300;
         }
     }

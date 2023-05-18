@@ -16,8 +16,9 @@ export default {
             <v-divider vertical></v-divider>
             <v-btn variant="plain" size="x-small">Premium Debit</v-btn>
         </section>
-    </main>
 
+        <img src="../assets/images/cards/CardDebet.svg" alt="Debit Card" class="debit__card">
+    </main>
 </template>
 
 <style lang="scss">
@@ -35,12 +36,15 @@ export default {
     
     
     h1 {
-        font-weight: 900;
+        font-size: 28px;
+        font-weight: 300;
+        word-spacing: 3px;
     }
 
     p {
         text-align: center;
         font-weight: 300;
+        word-spacing: 2px;
     }
 }
 .debit__buttons {
@@ -52,6 +56,10 @@ export default {
 }
 .v-btn--size-x-small {
     padding: 0 15px;
-    border-radius: 10px;
+}
+
+.debit__card {
+    width: 250px;
+    height: 150px;
 }
 </style>
