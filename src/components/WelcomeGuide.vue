@@ -3,16 +3,14 @@
 
 <template>
 <div class="try-div">
-    <img src="../assets/images/icons/iphone-icon.svg" alt="Card Credit" class="try">
-    <img src="../assets/images/icons/CardsQQ.svg" alt="" class="try">
+    <img src="../assets/images/icons/iphone-icon.svg" alt="Phone Icon" class="size-xs">
+    <img src="../assets/images/icons/CardsQQ.svg" alt="Card icon" class="size-xs">
 </div>
 </template>
 
 <style lang="scss">
-
-.try {
-    width: 30%;
-    height: 30%;
+.size-xs {
+    width: 10%;
+    height: 10%;
 }
-
 </style>

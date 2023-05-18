@@ -104,17 +104,17 @@
         class="w-75"
       ></v-checkbox>
   
-      <div>
+      <div class="buttons">
       <v-btn
         class="me-4"
         type="submit"
-        size="small"
+        size="xs-small"
       >
         submit
       </v-btn>
   
       <v-btn @click="handleReset"
-      size="small"
+      size="xs-small"
       >
         clear
       </v-btn>
@@ -138,4 +138,45 @@
     border-radius: 10px;
 }
 }
+
+// .v-field__field {
+
+//   label {
+//     font-size: 8px;
+//   }
+//   input {
+//     font-size: 8px;
+//     min-height: 8px;
+//   }
+// }
+
+// .v-field--active {
+//   font-size: 10px;
+// }
+
+// .v-fiel-label {
+//   top: 1px;
+// }
+// // .v-input__prepend {
+// //   i {
+
+// //   }
+// // }
+
+// .v-input--density-default {
+//   padding-top: 0;
+// }
+
+// .v-selection-control {
+//   label {
+//     font-size: 10px;
+//   }
+// }
+// .buttons {
+//   button {
+//     span {
+//       font-size: 10px;
+//     }
+//   }
+// }
 </style>
