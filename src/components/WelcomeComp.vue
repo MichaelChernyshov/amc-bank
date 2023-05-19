@@ -42,7 +42,7 @@
         .main__welcome {
             max-width: 90%;
             word-spacing: 3px;
-            font-size: $title-text-large;
+            font-size: 28px;
             font-weight: 300;
         }
     }

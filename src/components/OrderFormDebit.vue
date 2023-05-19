@@ -133,50 +133,52 @@
     flex-direction: column;
     align-items: center;
     width: 60%;
-    padding: 3%;
+    padding: 5%;
     background-color: rgba(21, 74, 207, 0.15);
     border-radius: 10px;
 }
 }
 
-// .v-field__field {
+.v-field__field {
 
-//   label {
-//     font-size: 8px;
-//   }
-//   input {
-//     font-size: 8px;
-//     min-height: 8px;
-//   }
-// }
+  label {
+    font-size: 8px;
+  }
+  input {
+    font-size: 8px;
+    min-height: 8px;
+  }
+}
 
-// .v-field--active {
-//   font-size: 10px;
-// }
+.v-field--active {
+  font-size: 10px;
+}
 
-// .v-fiel-label {
-//   top: 1px;
-// }
-// // .v-input__prepend {
-// //   i {
+.v-fiel-label {
+  top: 1px;
+}
+// .v-input__prepend {
+//   i {
 
-// //   }
-// // }
-
-// .v-input--density-default {
-//   padding-top: 0;
-// }
-
-// .v-selection-control {
-//   label {
-//     font-size: 10px;
 //   }
 // }
-// .buttons {
-//   button {
-//     span {
-//       font-size: 10px;
-//     }
-//   }
-// }
+
+.v-input--density-default {
+  padding-top: 0;
+}
+
+.v-selection-control {
+  label {
+    font-size: 10px;
+  }
+}
+.buttons {
+  button {
+    span {
+      font-size: 11px;
+      padding: 5px;
+      color: black;
+    }
+  }
+}
 </style>

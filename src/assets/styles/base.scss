@@ -1,11 +1,11 @@
-@use 'vuetify' with (
-  $utilities: false,
-  $color-pack: false,
+@use 'vuetify/settings' with (
+    // Place SASS variable overrides here
+    // $expansion-panel-active-title-min-height: 48px,
+    // $font-size-root: 18px,
+    // $border-radius-root: 12px,
+    $button-height: 5px
 );
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
-$text-small: 8px;
-$title-text-large: 28px;
 
 
 *:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {

@@ -31,7 +31,7 @@
         padding: 2%;
     }
     .navigation {
-        font-size: $text-small;
+        font-size: 8px;
         display: flex;
         justify-content: space-between;
         color: rgba(255, 255, 255, 0.5);
