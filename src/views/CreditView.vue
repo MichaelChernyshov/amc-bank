@@ -1,6 +1,7 @@
 <script setup>
+import OrderFormCreditVue from '../components/OrderFormCredit.vue';
 </script>
 
 <template>
-  <h1>Credit card</h1>
+  <OrderFormCreditVue></OrderFormCreditVue>
 </template>
