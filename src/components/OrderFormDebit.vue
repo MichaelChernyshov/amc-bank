@@ -4,7 +4,7 @@
 
   export default {
     setup () {
-      const { handleReset } = useForm({
+      const { handleSubmit, handleReset } = useForm({
         validationSchema: {
           name (value) {
             if (value) return true
@@ -44,10 +44,10 @@
         'Premium Debit',
       ])
 
-      const submit = function () {
+      const submit = handleSubmit(values => {
+        alert("You've ordered card.", values)
         handleReset()
-        alert("You have successfully ordered our card.")
-      }
+      })
 
       return { name, phone, email, select, checkbox, items, submit, handleReset }
     },
@@ -132,8 +132,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
-    padding: 5%;
+    width: 45%;
+    padding: 2%;
     background-color: rgba(21, 74, 207, 0.15);
     border-radius: 10px;
 }
@@ -154,31 +154,52 @@
   font-size: 10px;
 }
 
-.v-fiel-label {
-  top: 1px;
+.v-field__input {
+  --v-input-control-height: 25px !important;
 }
-// .v-input__prepend {
-//   i {
-
-//   }
-// }
 
 .v-input--density-default {
-  padding-top: 0;
+  --v-input-padding-top: 5px !important;
+  --v-input-control-height: 30px !important;
+}
+
+.v-counter {
+  font-size: 7px; 
+}
+
+.v-messages {
+  font-size: 7px;
 }
 
 .v-selection-control {
   label {
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 .buttons {
   button {
     span {
-      font-size: 11px;
+      font-size: 8px;
       padding: 5px;
       color: black;
     }
   }
+}
+.v-overlay__content {
+  max-height: 100px;
+  max-width: 200px;
+  min-width: 30px;
+}
+
+.v-list-item--density-default.v-list-item--one-line {
+  min-height: 20px;
+}
+
+.v-list-item-title {
+  font-size: 8px;
+}
+
+.v-icon--size-default {
+  font-size: 15px;
 }
 </style>
