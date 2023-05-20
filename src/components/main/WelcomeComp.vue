@@ -5,7 +5,7 @@
 <div class="main">
     <article class="main__main-info">
         <div class="main__description">
-            <h1 class="main__welcome">Pay everywhere you want with a cashback</h1>
+            <h1 class="main__welcome">Pay everywhere you want with cashback</h1>
             <div>
             <v-btn variant="outlined" rounded="xl" size="x-small" prepend-icon="mdi-apple" class="mr-3">
                 AppStore
@@ -40,7 +40,7 @@
         }
 
         .main__welcome {
-            max-width: 85%;
+            max-width: 80%;
             word-spacing: 3px;
             font-size: 28px;
             font-weight: 300;
