@@ -2,7 +2,7 @@
 </script>
 
 <template>
-<main class="main">
+<div class="main">
     <article class="main__main-info">
         <div class="main__description">
             <h1 class="main__welcome">Pay everywhere you want with a cashback</h1>
@@ -17,7 +17,7 @@
         </div>
             <img src="../assets/images/cards/done2.svg" alt="Two cards" class="two-cards__image">
     </article>
-</main>
+</div>
 </template>
 
 <style lang="scss">
