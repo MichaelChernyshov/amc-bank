@@ -132,13 +132,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 45%;
+    width: 55%;
     padding: 2%;
     background-color: rgba(21, 74, 207, 0.15);
     border-radius: 10px;
 
     h6 {
       padding-bottom: 5%;
+      text-align: center;
     }
 }
 }
