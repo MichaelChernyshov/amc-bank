@@ -1,5 +1,5 @@
 <script setup>
-import DebitCard from '../components/DebitCard.vue'
+import DebitCard from '../components/DebitCard.vue';
 import OrderFormDebit from '../components/OrderFormDebit.vue';
 </script>
 
