@@ -3,10 +3,10 @@
 <svg version="1.1" id="_Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
 	 y="0px" viewBox="0 0 451 801" style="enable-background:new 0 0 451 801;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:url(#SVGID_1_);stroke:#FFFFFF;stroke-miterlimit:10;}
-	.st1{fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:#FFFFFF;}
 </style>
-<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-42.2318" y1="668.1451" x2="502.3346" y2="123.5788">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-42.2318" y1="133.7449" x2="502.3346" y2="678.3112" gradientTransform="matrix(1 0 0 -1 0 801.89)">
 	<stop  offset="0.1199" style="stop-color:#000000"/>
 	<stop  offset="0.5019" style="stop-color:#67B0F9"/>
 	<stop  offset="0.8523" style="stop-color:#000000"/>

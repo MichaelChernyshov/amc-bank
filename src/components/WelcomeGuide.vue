@@ -4,7 +4,7 @@
 <template>
 <div class="try-div">
     <img src="../assets/images/icons/iphone-icon.svg" alt="Phone Icon" class="size-xs">
-    <img src="../assets/images/icons/CardsQQ.svg" alt="Card icon" class="size-xs">
+    <img src="../assets/images/icons/CardsGuide.svg" alt="Card icon" class="size-xs">
 </div>
 </template>
 
