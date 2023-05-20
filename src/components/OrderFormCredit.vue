@@ -40,7 +40,7 @@
       const checkbox = useField('checkbox')
 
       const items = ref([
-        'Usual Credit',
+        '4U Credit',
         'Premium Credit',
       ])
 

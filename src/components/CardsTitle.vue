@@ -1,13 +1,19 @@
-<script setup>
+<script>
+export default {
+    props: {
+      cardType: String,
+      cardDescription: String,
+    }
+  }
 </script>
 
 <template>
-    <main class="debit__welcome-container">
-    <article class="debit__welcome">
-            <h1>Credit cards</h1>
-            <p>Using credit card you can buy whatever you want with special offers</p>
+    <section class="debit__welcome-container">
+    <article class="card__welcome">
+            <h1>{{cardType}} cards</h1>
+            <p>{{cardDescription}}</p>
         </article>
-    </main>
+    </section>
 </template>
 
 <style lang="scss">
@@ -15,17 +21,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
-    height: 84vh;
 }
-
-.debit__welcome {
+.card__welcome {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 70%;
     padding-bottom: 3%;
-    
     
     h1 {
         font-size: 28px;
