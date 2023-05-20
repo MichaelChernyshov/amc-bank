@@ -1,28 +1,20 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import NavBar from './components/NavBar.vue'
+import { RouterView } from 'vue-router'
+import NavBar from './components/header/NavBar.vue'
+import FooterMain from './components/footer/FooterMain.vue'
 </script>
 
 <template>
-  <header>
-    <div>
-      <nav>
-        <NavBar/>
-        <RouterLink to="/debit">Debit Card</RouterLink>
-        <RouterLink to="/credit">Credit Card</RouterLink>
-        <RouterLink to="/loans">Loans</RouterLink>
-        <RouterLink to="/deposit">Deposit</RouterLink>
-        <RouterLink to="/sim-card">Sim-Card</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+  <v-app>
+    <NavBar />
+    <RouterView />
+    <FooterMain />
+  </v-app>
 </template>
 
 <style lang="scss">
-nav {
-  display: flex;
-  justify-content: space-between;
-}
-</style>
+.v-application {
+  background: radial-gradient(100% 100% at -22% -14%, #1D38C2FF 0%, #FF000000 85%),radial-gradient(100% 100% at 116% 118%, #1D38C2FF 0%, #FF000000 85%),linear-gradient(0deg, #1E1E20FF 0%, #111010FF 94%) !important;
+  color: white !important;
+  display: block !important;
+}</style>
