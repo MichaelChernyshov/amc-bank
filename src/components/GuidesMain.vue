@@ -69,14 +69,15 @@ export default {
 }
 
 .img-guide__second {
-    width: 50%;
+    width: 45%;
     height: 60%;
+    padding-bottom: 9%;
 }
 
 .img-guide__third {
     width: 50%;
     height: 70%;
-    margin: 10%;
+    margin: 10% 10% 11% 10%;
 }
 
 .v-card--variant-elevated, .v-card--variant-flat {

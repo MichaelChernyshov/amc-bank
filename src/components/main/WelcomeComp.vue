@@ -15,7 +15,7 @@
             </v-btn>
         </div>
         </div>
-            <img src="../assets/images/cards/done2.svg" alt="Two cards" class="two-cards__image">
+            <img src="/src/assets/images/cards/done2.svg" alt="Two cards" class="two-cards__image">
     </article>
 </div>
 </template>

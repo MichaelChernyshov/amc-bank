@@ -35,7 +35,7 @@
     background: none !important;
 }
 .footer-text {
-    font-size: 13px;
+    font-size: 10px;
     color: #BDBDBD;
 }
 </style>

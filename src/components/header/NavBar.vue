@@ -41,7 +41,7 @@
     .nav-logo {
 
         .logo {
-            background: no-repeat url(../assets/images/logo/logoWhite.svg);
+            background: no-repeat url(/src/assets/images/logo/logoWhite.svg);
             width: 80px;
             height: 30px;
         } 

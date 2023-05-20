@@ -62,8 +62,9 @@ export default {
 }
 
 .img-guide__second {
-    width: 30%;
+    width: 29%;
     height: 30%;
+    padding-bottom: 0;
 }
 
 .img-guide__third {

@@ -1,5 +1,5 @@
 <script setup>
-import WelcomeComp from '../components/WelcomeComp.vue'
+import WelcomeComp from '../components/main/WelcomeComp.vue'
 import GuidesMain from '../components/GuidesMain.vue';
 </script>
 
