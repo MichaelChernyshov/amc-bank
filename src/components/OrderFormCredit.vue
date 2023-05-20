@@ -55,7 +55,7 @@
 </script>
 
 <template>
-  <section class="section__order">
+  <section class="section__order" id="order">
     <form @submit.prevent="submit" class="order-form">
       <v-text-field
         v-model="name.value.value"

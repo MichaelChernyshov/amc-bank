@@ -40,7 +40,7 @@
       const checkbox = useField('checkbox')
 
       const items = ref([
-        'Usual Debit',
+        '4U Debit',
         'Premium Debit',
       ])
 
@@ -55,8 +55,8 @@
 </script>
 
 <template>
-  <section class="section__order">
-    <form @submit.prevent="submit" class="order-form">
+  <section class="section__order" id="order">
+    <form @submit.prevent="submit" class="order-form" >
       <v-text-field
         v-model="name.value.value"
         :error-messages="name.errorMessage.value"
@@ -133,7 +133,7 @@
     flex-direction: column;
     align-items: center;
     width: 45%;
-    padding: 2%;
+    padding: 3% 2% 2%;
     background-color: rgba(21, 74, 207, 0.15);
     border-radius: 10px;
 }

@@ -1,7 +1,9 @@
 <script setup>
-import OrderFormCreditVue from '../components/OrderFormCredit.vue';
+import CreditCard from '../components/CreditCard.vue';
+import OrderFormCredit from '../components/OrderFormCredit.vue';
 </script>
 
 <template>
-  <OrderFormCreditVue></OrderFormCreditVue>
+  <CreditCard></CreditCard>
+  <OrderFormCredit></OrderFormCredit>
 </template>

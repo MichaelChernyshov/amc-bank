@@ -15,7 +15,7 @@
             </v-btn>
         </div>
         </div>
-            <img src="../assets/images/cards/two.svg" alt="qweeqwe" class="two-cards__image">
+            <img src="../assets/images/cards/done2.svg" alt="Two cards" class="two-cards__image">
     </article>
 </main>
 </template>
@@ -40,7 +40,7 @@
         }
 
         .main__welcome {
-            max-width: 90%;
+            max-width: 85%;
             word-spacing: 3px;
             font-size: 28px;
             font-weight: 300;
@@ -49,7 +49,7 @@
 }
 
 .two-cards__image {
-    width: 55%;
-    height: 55%;
+    width: 43%;
+    height: 40%;
 }
 </style>
