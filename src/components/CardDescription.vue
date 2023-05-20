@@ -60,4 +60,19 @@ export default {
     white-space: normal;
     padding: 0 2rem;
 }
+
+.img-guide__second {
+    width: 30%;
+    height: 30%;
+}
+
+.img-guide__third {
+  width: 30%;
+  height: 30%;
+  margin: 3%;
+}
+
+.welcome-guide {
+  height: 55vh;
+}
 </style>
