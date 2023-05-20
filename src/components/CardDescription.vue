@@ -18,7 +18,7 @@ export default {
           >
             <div class="d-flex flex-no-wrap justify-space-between">
               <div>
-                <v-card-title class="text-body-1">
+                <v-card-title class="text-body-1 text-uppercase">
                   {{cardName}}
                 </v-card-title>
 

@@ -40,8 +40,7 @@
       const checkbox = useField('checkbox')
 
       const items = ref([
-        '4U Credit',
-        'Premium Credit',
+        'Aurora Credit Card',
       ])
 
       const submit = handleSubmit(values => {
@@ -57,6 +56,7 @@
 <template>
   <section class="section__order" id="order">
     <form @submit.prevent="submit" class="order-form">
+      <h6>Order our credit card here</h6>
       <v-text-field
         v-model="name.value.value"
         :error-messages="name.errorMessage.value"
@@ -136,6 +136,10 @@
     padding: 2%;
     background-color: rgba(21, 74, 207, 0.15);
     border-radius: 10px;
+
+    h6 {
+      padding-bottom: 5%;
+    }
 }
 }
 
