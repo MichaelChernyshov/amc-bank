@@ -13,7 +13,7 @@
                 <RouterLink to="/credit">Credit Card</RouterLink>
                 <RouterLink to="/loans">Loans</RouterLink>
                 <RouterLink to="/deposit">Deposit</RouterLink>
-                <RouterLink to="/sim-card">Sim-Card</RouterLink>
+                <RouterLink to="/e-sim">eSIM</RouterLink>
             </nav>
 
             <div class="nav_bar__enter">
