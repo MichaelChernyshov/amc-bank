@@ -44,6 +44,7 @@
             word-spacing: 3px;
             font-size: 28px;
             font-weight: 300;
+            padding-bottom: 2%;
         }
     }
 }
