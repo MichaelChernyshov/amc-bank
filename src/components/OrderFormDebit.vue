@@ -54,7 +54,8 @@
 </script>
 
 <template>
-  <section class="section__order" id="order">
+  <section class="card-order">
+  <div class="section__order" id="order">
     <form @submit.prevent="submit" class="order-form" >
       <h6>Order our credit card here</h6>
       <v-text-field
@@ -120,10 +121,15 @@
       </v-btn>
     </div>
     </form>
-  </section>
+  </div>
+</section>
   </template>
 
 <style lang="scss">
+.card-order {
+  padding-top: 5%;
+  height: 100vh;
+}
 .section__order {
   display: flex;
   justify-content: center;

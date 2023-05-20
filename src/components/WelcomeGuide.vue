@@ -1,9 +1,15 @@
 <script>
 export default {
     props: {
-      imgLink: String,
+      fImgLink: String,
       fCardTitle: String,
       fCardDescription: String,
+      sImgLink: String,
+      sCardTitle: String,
+      sCardDescription: String,
+      tImgLink: String,
+      tCardTitle: String,
+      tCardDescription: String,
     }
   }
 </script>
@@ -12,27 +18,27 @@ export default {
 <div class="welcome-guide">
     <h2>Using guide</h2>
     <div class="welcome-cards">
-        <v-card width="200">
+        <v-card width="200" class="rounded-lg">
             <v-card-item>
-                <img :src="imgLink" class="img-guide">
+                <img :src="fImgLink" class="img-guide__iphone">
                 <v-card-title>{{fCardTitle}}</v-card-title>
                 <v-card-subtitle>{{fCardDescription}}</v-card-subtitle>
             </v-card-item>
         </v-card>
 
-        <v-card width="200">
+        <v-card width="200" class="rounded-lg">
             <v-card-item>
-                <img :src="imgLink" class="img-guide">
-                <v-card-title>{{fCardTitle}}</v-card-title>
-                <v-card-subtitle>{{fCardDescription}}</v-card-subtitle>
+                <img :src="sImgLink" class="img-guide__iphone">
+                <v-card-title>{{sCardTitle}}</v-card-title>
+                <v-card-subtitle>{{sCardDescription}}</v-card-subtitle>
             </v-card-item>
         </v-card>
 
-        <v-card width="200">
+        <v-card width="200" class="rounded-lg">
             <v-card-item>
-                <img :src="imgLink" class="img-guide">
-                <v-card-title>{{fCardTitle}}</v-card-title>
-                <v-card-subtitle>{{fCardDescription}}</v-card-subtitle>
+                <img :src="tImgLink" class="img-guide__card">
+                <v-card-title>{{tCardTitle}}</v-card-title>
+                <v-card-subtitle>{{tCardDescription}}</v-card-subtitle>
             </v-card-item>
         </v-card>
 </div>
@@ -56,9 +62,15 @@ export default {
         justify-content: space-around;
     }
 }
-.img-guide {
+.img-guide__iphone {
   width: 30% ;
   height: 30%;
+}
+
+.img-guide__card {
+    width: 50%;
+    height: 70%;
+    margin: 10%;
 }
 
 .v-card--variant-elevated, .v-card--variant-flat {

@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <main class="debit__welcome-container">
+    <div class="debit__welcome-container">
         <v-col cols="11">
           <v-card
             color="#154acf26"
@@ -49,10 +49,13 @@ export default {
             </div>
           </v-card>
         </v-col>   
-    </main>
+      </div>
 </template>
 
 <style lang="scss">
+.debit__welcome-container {
+  padding-bottom: 3%;
+}
 .text-body-2 {
     white-space: normal;
     padding: 0 2rem;
