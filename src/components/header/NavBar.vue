@@ -9,15 +9,15 @@
 
         <div class="nav-bar">
             <nav class="nav_bar__link">
-                <RouterLink to="/debit">Debit Card</RouterLink>
-                <RouterLink to="/credit">Credit Card</RouterLink>
-                <RouterLink to="/loans">Loans</RouterLink>
-                <RouterLink to="/deposit">Deposit</RouterLink>
-                <RouterLink to="/e-sim">eSIM</RouterLink>
+                <RouterLink to="/debit" class="transition">Debit Card</RouterLink>
+                <RouterLink to="/credit" class="transition">Credit Card</RouterLink>
+                <RouterLink to="/loans" class="transition">Loans</RouterLink>
+                <RouterLink to="/deposit" class="transition">Deposit</RouterLink>
+                <RouterLink to="/e-sim" class="transition">eSIM</RouterLink>
             </nav>
 
             <div class="nav_bar__enter">
-                <a href="/" class="btn-enter">
+                <a href="/" class="btn-enter transition">
                     <p>Enter</p>
                 </a>
             </div>
@@ -55,9 +55,11 @@
 
             a {
                 margin-left: 2rem;
+                transition: transform .4s cubic-bezier(0,0,.4,1);
                 
                 &:hover {
                     color: white;
+                    transform: scale3d(1.15,1.15,1.15);
                 }
 
                 &:first-child {
