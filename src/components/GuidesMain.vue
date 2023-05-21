@@ -19,29 +19,33 @@ export default {
 <div class="welcome-guide">
     <h2>{{ pageTitle }}</h2>
     <div class="welcome-cards">
-        <v-card width="200" class="rounded-lg">
+        <div class="transition">
+        <v-card width="200" height="180" class="rounded-lg">
             <v-card-item>
                 <img :src="fImgLink" class="img-guide__first">
                 <v-card-title>{{fCardTitle}}</v-card-title>
                 <v-card-subtitle>{{fCardDescription}}</v-card-subtitle>
             </v-card-item>
         </v-card>
-
-        <v-card width="200" class="rounded-lg">
+    </div>
+    <div class="transition">
+        <v-card width="200" height="180" class="rounded-lg">
             <v-card-item>
                 <img :src="sImgLink" class="img-guide__second">
                 <v-card-title>{{sCardTitle}}</v-card-title>
                 <v-card-subtitle>{{sCardDescription}}</v-card-subtitle>
             </v-card-item>
         </v-card>
-
-        <v-card width="200" class="rounded-lg">
+    </div>
+    <div class="transition">
+        <v-card width="200" height="180" class="rounded-lg">
             <v-card-item>
                 <img :src="tImgLink" class="img-guide__third">
                 <v-card-title>{{tCardTitle}}</v-card-title>
                 <v-card-subtitle>{{tCardDescription}}</v-card-subtitle>
             </v-card-item>
         </v-card>
+    </div>
 </div>
 </div>
 </template>
@@ -71,7 +75,7 @@ export default {
 .img-guide__second {
     width: 45%;
     height: 60%;
-    padding-bottom: 9%;
+    margin-bottom: 9%;
 }
 
 .img-guide__third {
@@ -98,6 +102,14 @@ export default {
         font-size: 10px !important;
         white-space: normal !important;
         text-align: center;
+    }
+}
+
+.transition {
+    transition: transform .4s cubic-bezier(0,0,.4,1);
+
+    &:hover {
+        transform: scale3d(1.03,1.03,1.03);
     }
 }
 </style>

@@ -10,11 +10,11 @@ export default {
 
 <template>
     <div class="debit__welcome-container">
-        <v-col cols="11">
+        <v-col cols="11" class="card-hover">
           <v-card
             color="#154acf26"
             theme="dark"
-            class="rounded-lg"
+            class="rounded-lg card-hover-two"
           >
             <div class="d-flex flex-no-wrap justify-space-between">
               <div>
@@ -61,19 +61,35 @@ export default {
     padding: 0 2rem;
 }
 
+.img-guide__first {
+  width: 30%;
+  height: 30%;
+  margin: 3%;
+  padding-bottom: 3%;
+}
+
 .img-guide__second {
-    width: 29%;
-    height: 30%;
-    padding-bottom: 0;
+    width: 30%;
+    height: 20%;
+    padding-bottom: 2%;
+    margin: 3%;
 }
 
 .img-guide__third {
   width: 30%;
   height: 30%;
   margin: 3%;
+  padding-bottom: 9%;
 }
 
 .welcome-guide {
   height: 55vh;
+}
+.card-hover {
+  transition: transform .4s cubic-bezier(0,0,.4,1);
+
+  &:hover {
+    transform: scale3d(1.04,1.04,1.04);
+  }
 }
 </style>
