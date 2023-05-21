@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+$scr-xxs: 430px;
+$scr-xs: 630px;
+$scr-sm: 960px;
+$scr-md: 1280px;
+$scr-lg: 1920px;
+$scr-xl: 2560px;
 
 *:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
   all: unset;

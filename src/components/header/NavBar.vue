@@ -11,7 +11,6 @@
             <nav class="nav_bar__link">
                 <RouterLink to="/debit" class="transition">Debit Card</RouterLink>
                 <RouterLink to="/credit" class="transition">Credit Card</RouterLink>
-                <RouterLink to="/loans" class="transition">Loans</RouterLink>
                 <RouterLink to="/deposit" class="transition">Deposit</RouterLink>
                 <RouterLink to="/e-sim" class="transition">eSIM</RouterLink>
             </nav>
@@ -31,19 +30,31 @@
         padding: 2%;
     }
     .navigation {
-        font-size: 8px;
         display: flex;
+        align-items: center;
         justify-content: space-between;
         color: rgba(255, 255, 255, 0.5);
         padding-bottom: 1%;
+
+        @include small {
+            font-size: 0.5rem;
+        }
+        //надо будет удалить
+        @include extra-small {
+            font-size: 0.3rem;
+        }
     }
 
     .nav-logo {
 
         .logo {
             background: no-repeat url(/src/assets/images/logo/logoWhite.svg);
-            width: 80px;
-            height: 30px;
+            width: 6rem;
+
+            @include small {
+            width: 4rem;
+            height: 2rem;
+            }
         } 
     }
     .nav-bar {

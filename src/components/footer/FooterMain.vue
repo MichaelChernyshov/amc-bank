@@ -31,11 +31,19 @@
 <style lang="scss">
 .v-footer {
     color: white !important;
-    padding: 0 !important;
+    padding: 5% 0 0 !important;
     background: none !important;
 }
 .footer-text {
     font-size: 10px;
     color: #BDBDBD;
+
+    @include x-extra-small {
+        font-size: 0.4rem;    
+    }
+}
+
+.v-icon--size-default {
+  font-size: 0.7rem;
 }
 </style>
