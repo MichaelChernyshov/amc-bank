@@ -38,10 +38,7 @@
         .main__description {
             display: flex;
             flex-direction: column;
-
-            @include small {
-                padding: 0 5%;
-            }
+            padding: 0 5%;
 
             @include extra-small {
                 padding: 3%;
@@ -54,6 +51,10 @@
             font-weight: 300;
             padding-bottom: 2%;
 
+            @include medium {
+                font-size: 2rem;
+                max-width: 60%;
+            }
             @include small {
                 font-size: 1.7rem;
                 max-width: 60%;
@@ -77,6 +78,10 @@
     align-items: start;
 }
 .two-cards__image {
+    width: 50%;
+    @include medium {
+        max-width: 40%;
+    }
     @include small {
         max-width: 38%;
     }

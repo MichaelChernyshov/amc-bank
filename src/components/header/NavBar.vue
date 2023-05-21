@@ -50,10 +50,14 @@
         .logo {
             background: no-repeat url(/src/assets/images/logo/logoWhite.svg);
             width: 6rem;
-
+            
+            @include medium {
+                width: 5rem;
+                height: 2rem;
+            }
             @include small {
-            width: 4rem;
-            height: 2rem;
+                width: 5rem;
+                height: 2rem;
             }
         } 
     }
