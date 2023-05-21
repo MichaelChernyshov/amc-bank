@@ -56,11 +56,14 @@ export default {
     flex-direction: column;
     
     h2 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-align: center;
         padding-bottom: 3%;
         word-spacing: 3px;
 
+        @include medium {
+            font-size: 1.2rem;
+        }
         @include small {
             font-size: 1.2rem;
         }
@@ -113,7 +116,11 @@ export default {
     align-items: center;
 
     .v-card-title {
-        
+        font-size: 1rem;
+
+        @include medium {
+            font-size: 1rem;    
+        }
         @include small {
             font-size: 0.8rem;    
         }

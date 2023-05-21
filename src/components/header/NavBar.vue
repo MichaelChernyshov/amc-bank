@@ -50,6 +50,7 @@
         .logo {
             background: no-repeat url(/src/assets/images/logo/logoWhite.svg);
             width: 6rem;
+            height: 3rem;
             
             @include medium {
                 width: 5rem;
