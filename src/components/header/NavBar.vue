@@ -16,9 +16,9 @@
             </nav>
 
             <div class="nav_bar__enter">
-                <a href="/" class="btn-enter transition">
+                <RouterLink to="/login" class="btn-enter transition">
                     <p>Enter</p>
-                </a>
+                </RouterLink>
             </div>
         </div>   
     </div>
