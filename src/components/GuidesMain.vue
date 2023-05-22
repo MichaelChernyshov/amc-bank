@@ -61,6 +61,9 @@ export default {
         padding-bottom: 3%;
         word-spacing: 3px;
 
+        @include large {
+            font-size: 1.9rem;
+        }
         @include medium {
             font-size: 1.2rem;
         }
@@ -87,7 +90,9 @@ export default {
 .img-guide__first {
   width: 30% ;
   height: 30%;
-
+    @include large {
+        padding-bottom: 2%;
+    }
     @include extra-small {
         padding-bottom: 8%;
     }
@@ -118,6 +123,9 @@ export default {
     .v-card-title {
         font-size: 1rem;
 
+        @include large {
+            font-size: 1.3rem;    
+        }
         @include medium {
             font-size: 1rem;    
         }
@@ -133,6 +141,12 @@ export default {
         white-space: normal !important;
         text-align: center;
 
+        @include large {
+            font-size: 1.1rem;    
+        }
+        @include medium {
+            font-size: 0.8rem;    
+        }
         @include small {
             font-size: 0.6rem;    
         }
@@ -154,8 +168,12 @@ export default {
     padding-bottom: 3%;
 }
 .width-200 {
-    width: 13rem;
-
+    @include large {
+        width: 22rem;
+    }
+    @include medium {
+        width: 18rem;
+    }
     @include extra-small {
         width: 15rem;    
     }
@@ -167,6 +185,12 @@ export default {
 .height-180 {
     height: 12rem;
 
+    @include large {
+        height: 18rem;
+    }
+    @include medium {
+        height: 16rem;    
+    }
     @include extra-small {
         height: 14rem;    
     }

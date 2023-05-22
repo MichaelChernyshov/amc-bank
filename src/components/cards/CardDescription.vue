@@ -1,10 +1,24 @@
 <script>
 export default {
+  data: () => ({
+      windowSize: {
+        x: 0,
+        y: 0,
+      },
+    }),
+    mounted () {
+      this.onResize()
+    },
     props: {
       cardName: String,
       description: String,
       imgLink: String,
-    }
+    },
+    methods: {
+      onResize () {
+        this.windowSize = { x: window.innerWidth, y: window.innerHeight }
+      },
+    },
   }
 </script>
 
@@ -50,6 +64,16 @@ export default {
           </v-card>
         </v-col>   
       </div>
+      <v-row
+    v-resize="onResize"
+    align="center"
+    justify="center"
+  >
+    <v-col class="text-center">
+      <div class="text-subtitle-2">Window Size</div>
+      {{ windowSize }}
+    </v-col>
+  </v-row>
 </template>
 
 <style lang="scss">
@@ -81,15 +105,46 @@ export default {
   margin: 3%;
   padding-bottom: 9%;
 }
-
-.welcome-guide {
-  height: 55vh;
-}
 .card-hover {
   transition: transform .4s cubic-bezier(0,0,.4,1);
 
   &:hover {
     transform: scale3d(1.04,1.04,1.04);
   }
+}
+
+.height-180 {
+    height: 12rem;
+
+    @include large {
+        height: 15rem;    
+    }
+    @include medium {
+        height: 12rem;    
+    }
+    @include small {
+        height: 10rem;    
+    }
+    @include extra-small {
+        height: 11rem;    
+    }
+    @include x-extra-small {
+        height: 11.2rem;    
+    }
+}
+
+.width-200 {
+  @include large {
+    width: 21rem;    
+  }
+  @include medium {
+    width: 17rem;    
+  }
+  @include small {
+      width: 12rem;    
+  }
+  @include extra-small {
+      width: 14rem;    
+    }
 }
 </style>

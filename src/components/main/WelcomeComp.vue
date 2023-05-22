@@ -51,6 +51,10 @@
             font-weight: 300;
             padding-bottom: 2%;
 
+            @include large {
+                font-size: 3rem;
+                max-width: 60%;
+            }
             @include medium {
                 font-size: 2rem;
                 max-width: 60%;
@@ -79,6 +83,9 @@
 }
 .two-cards__image {
     width: 50%;
+    @include large {
+        max-width: 38%;
+    }
     @include medium {
         max-width: 40%;
     }

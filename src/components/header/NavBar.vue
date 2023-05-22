@@ -36,10 +36,15 @@
         color: rgba(255, 255, 255, 0.5);
         padding-bottom: 1%;
 
+        @include large {
+            font-size: 1.1rem;
+        }
+        @include medium {
+            font-size: 0.8rem;
+        }
         @include small {
             font-size: 0.5rem;
         }
-        //надо будет удалить
         @include extra-small {
             font-size: 0.3rem;
         }
@@ -52,6 +57,10 @@
             width: 6rem;
             height: 3rem;
             
+            @include large {
+                width: 10rem;
+                height: 4rem;
+            }
             @include medium {
                 width: 5rem;
                 height: 2rem;
@@ -72,6 +81,9 @@
             a {
                 margin-left: 2rem;
                 transition: transform .4s cubic-bezier(0,0,.4,1);
+                @include large {
+                    margin-left: 5rem;
+                }
                 
                 &:hover {
                     color: white;
@@ -90,11 +102,19 @@
         display: flex;
         margin-left: 2rem;
 
+        @include large {
+            margin-left: 5rem;
+        }
+
         .btn-enter {
         border: 1px solid rgb(12, 24, 81);
         border-radius: 28px;
         padding: 7px 15px 7px 15px;
         text-decoration: none;
+
+        @include large {
+            padding: 10px 30px 10px 30px;
+        }
 
         &:hover {
             color: white;
