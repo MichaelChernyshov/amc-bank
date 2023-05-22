@@ -41,10 +41,9 @@ export default {
 
               <v-avatar
                 class="mr-9"
-                size="170"
                 rounded="0"
               >
-                <img :src="imgLink" alt="Debit Card">
+                <img :src="imgLink" alt="Debit Card" class="img-size">
               </v-avatar>
             </div>
           </v-card>
@@ -122,5 +121,93 @@ export default {
   @include extra-small {
       width: 14rem;    
     }
+}
+
+.mt-5 {
+  @include extra-small {
+      margin-top: 0 !important;    
+    }
+}
+
+.d-flex {
+  align-items: center;
+  @include extra-small {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.mr-9 {
+  @include extra-small {
+    margin-right: 0 !important;
+  }
+}
+.v-avatar {
+  width: 170px !important;
+  height: 110px !important;
+
+  @include large {
+    width: 270px !important;
+    height: 220px !important;
+  }
+  @include medium {
+    width: 220px !important;
+    height: 170px !important;
+  }
+  @include small {
+    font-size: 1.2rem !important;
+  }
+}
+
+.v-col, .v-col-11 {
+  padding: 0;
+  @include extra-small {
+    max-width: 60% !important;
+  }
+}
+
+.v-card .v-card-title {
+  @include extra-small {
+    text-align: center;
+  }
+}
+
+.v-card {
+  padding: 10px;
+}
+
+.text-body-1 {
+  @include large {
+    font-size: 1.6rem !important;
+  }
+  @include medium {
+    font-size: 1.5rem !important;
+  }
+  @include small {
+    font-size: 1.2rem !important;
+  }
+}
+
+.text-body-2 {
+  @include large {
+    font-size: 1.4rem !important;
+  }
+  @include medium {
+    font-size: 1.3rem !important;
+  }
+  @include small {
+    font-size: 1rem !important;
+  }
+}
+
+.v-btn--size-x-small{
+  @include large {
+    font-size: 1.2rem !important;
+  }
+  @include medium {
+    font-size: 1rem !important;
+  }
+  @include small {
+    font-size: 0.8rem !important;
+  }
 }
 </style>

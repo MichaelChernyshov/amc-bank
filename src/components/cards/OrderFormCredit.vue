@@ -127,7 +127,7 @@
 
 <style lang="scss">
 .card-order {
-  padding-top: 5%;
+  padding-top: 2%;
 }
 .section__order {
   display: flex;
