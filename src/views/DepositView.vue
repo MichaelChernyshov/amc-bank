@@ -1,14 +1,10 @@
 <script setup>
+import DepositTitle from '../components/deposit/DepositTitle.vue'
 </script>
 
 <template>
-  <h1>Deposit</h1>
-  <img src="/src/assets/images/icons/deposit.svg" alt="ddd" class="try">
+  <DepositTitle />
 </template>
 
 <style lang="scss">
-.try {
-  width: 400px;
-  height: 300px;
-}
 </style>

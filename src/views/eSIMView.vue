@@ -11,7 +11,15 @@ import ESimQuestions from '../components/e-sim/ESimQuestions.vue'
     <ESimDescription />
     <ESimInstall />
     <ESimCompatible />
-    <ESimQuestions titleA="Title" textA="Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quas est enim eaque ducimus voluptas blanditiis, laboriosam esse sed sapiente ipsa debitis rem error perspiciatis minus doloremque numquam vero mollitia."/>
+    <ESimQuestions titleF="Can the eSIM be moved to another device?" 
+    textF="Yes. If you have removed the eSIM from your device, you can download it to another device. For this
+use the same QR code. You can use it up to 100 times. Be sure to make sure when removing the eSIM that there is an Internet connection through the physical SIM card
+or Wi-Fi, otherwise the command to remove the eSIM from the device will not be sent, and the card will not actually be removed."
+    titleS="Do I need to save the QR code?"
+    textS="Yes. You may need it for re-installation if you decide to rearrange the eSIM. The QR code is an access to your number, keep it in a safe place."
+    titleT="What to do if the QR code is lost?"
+    textT="If before that you did not read the QR code or read it, but then deleted the eSIM, contact AMC. Employees will help you replace the eSIM with a new one."
+    />
   </template>
 
 <style lang="scss">
