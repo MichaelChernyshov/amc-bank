@@ -63,8 +63,5 @@
     @include small {
         font-size: 1.5rem !important;    
     }
-    @include extra-small {
-        font-size: 0.8rem !important;    
-    }
 }
 </style>

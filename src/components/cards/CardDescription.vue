@@ -14,7 +14,7 @@ export default {
           <v-card
             color="#154acf26"
             theme="dark"
-            class="rounded-lg card-hover-two"
+            class="rounded-lg card-hover-two bg-cl"
           >
             <div class="d-flex flex-no-wrap justify-space-between">
               <div>
@@ -33,6 +33,7 @@ export default {
                     variant="plain"
                     size="x-small"
                     href="#order"
+                    :ripple="false"
                   >
                     Order
                   </v-btn>

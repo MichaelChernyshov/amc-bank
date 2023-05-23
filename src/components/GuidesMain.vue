@@ -20,7 +20,7 @@ export default {
     <h2>{{ pageTitle }}</h2>
     <div class="welcome-cards">
         <div class="transition p-bottom-xxs">
-        <v-card class="rounded-lg width-200 height-180">
+        <v-card class="rounded-lg width-200 height-180 bg-cl">
             <v-card-item>
                 <img :src="fImgLink" class="img-guide__first">
                 <v-card-title>{{fCardTitle}}</v-card-title>
@@ -29,7 +29,7 @@ export default {
         </v-card>
     </div>
     <div class="transition p-bottom-xxs">
-        <v-card class="rounded-lg width-200 height-180">
+        <v-card class="rounded-lg width-200 height-180 bg-cl">
             <v-card-item>
                 <img :src="sImgLink" class="img-guide__second">
                 <v-card-title>{{sCardTitle}}</v-card-title>
@@ -38,7 +38,7 @@ export default {
         </v-card>
     </div>
     <div class="transition">
-        <v-card class="rounded-lg width-200 height-180">
+        <v-card class="rounded-lg width-200 height-180 bg-cl">
             <v-card-item>
                 <img :src="tImgLink" class="img-guide__third">
                 <v-card-title>{{tCardTitle}}</v-card-title>
@@ -81,6 +81,10 @@ export default {
         display: flex;
         justify-content: space-around;
     
+        @include small {
+            flex-direction: column;
+            align-items: center;
+        }
         @include extra-small {
             flex-direction: column;
             align-items: center;
@@ -111,7 +115,6 @@ export default {
 }
 
 .v-card--variant-elevated, .v-card--variant-flat {
-    background: #154acf26 !important;
     color: white !important;
 }
 
@@ -162,6 +165,10 @@ export default {
     &:hover {
         transform: scale3d(1.03,1.03,1.03);
     }
+}
+
+.bg-cl {
+    background: #154acf26 !important;
 }
 
 .p-bottom-xxs {
