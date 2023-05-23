@@ -5,7 +5,6 @@ import vue from '@vitejs/plugin-vue'
 import vuetify from 'vite-plugin-vuetify'
 
 export default defineConfig({
-  base: '/amc-bank/',
   plugins: [
     vue(),
     vuetify(),
