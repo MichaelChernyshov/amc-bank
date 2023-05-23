@@ -3,7 +3,7 @@ import ESim from '../components/e-sim/ESim.vue';
 import ESimDescription from '../components/e-sim/ESimDescription.vue'
 import ESimInstall from '../components/e-sim/ESimInstall.vue'
 import ESimCompatible from '../components/e-sim/ESimCompatible.vue'
-import ESimQuestions from '../components/e-sim/ESimQuestions.vue'
+import QuestionsPanel from '../components/e-sim/QuestionsPanel.vue'
 </script>
 
 <template>
@@ -11,7 +11,7 @@ import ESimQuestions from '../components/e-sim/ESimQuestions.vue'
     <ESimDescription />
     <ESimInstall />
     <ESimCompatible />
-    <ESimQuestions titleF="Can the eSIM be moved to another device?" 
+    <QuestionsPanel titleF="Can the eSIM be moved to another device?" 
     textF="Yes. If you have removed the eSIM from your device, you can download it to another device. For this
 use the same QR code. You can use it up to 100 times. Be sure to make sure when removing the eSIM that there is an Internet connection through the physical SIM card
 or Wi-Fi, otherwise the command to remove the eSIM from the device will not be sent, and the card will not actually be removed."
