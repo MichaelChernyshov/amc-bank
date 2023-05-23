@@ -3,7 +3,7 @@
 
 <template>
     <div class="e-sim__description-container d-flex flex-column align-center pb-10">
-    <div class="e-sim__description d-flex flex-row align-center bg-cl rounded-lg pl-10 py-10 card-hover">
+    <div class="e-sim__description d-flex flex-row align-center bg-cl rounded-lg pl-10 pr-10 py-10 card-hover">
         <div>
             <h1 class="text-lg-h4 text-md-h5 text-sm-h6 pb-8">Install eSIM in 5 minutes</h1>
             <h2 class="text-lg-h5 text-md-subtitle-1 text-sm-subtitle-2 pl-5 pb-2">Don't wait for a courier - get an eSIM from AMC in 3 easy steps.</h2>
