@@ -6,9 +6,9 @@ import FooterMain from './components/footer/FooterMain.vue';
 <template>
   <v-app>
     <NavBar />
-    <v-content>
+    <v-main>
       <RouterView />
-    </v-content>
+    </v-main>
     <FooterMain />
   </v-app>
   </template>
