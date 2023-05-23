@@ -96,25 +96,54 @@
 </template>
 
 <style lang="scss">
+.login {
+  height: 72vh;
+  @include small {
+    flex-direction: column;
+    height: unset;
+  }
+}
 .welcome-message {
     width: 30%;
     display: flex;
+
+    @include small {
+    width: 50%;
+    text-align: center;
+    }
 }
 .bank-welcome {
     font-size: 3rem;
-    // width: 30%;
+
+    @include small {
+    font-size: 2rem;
+    padding-top: 2%;
+  }
+  @include extra-small {
+    font-size: 1.5rem;
+    padding-top: 2%;
+  }
+  @include x-extra-small {
+    font-size: 1rem;
+    padding-top: 2%;
+  }
 }
 .v-sheet {
     background: none;
     width: 40%;
-}
-.login {
-    height: 72vh;
+
+    @include small {
+    width: 70%;
+    }
+    @include extra-small {
+    width: 100%;
+    }
 }
 
 .bg-success {
     background-color: rgb(26, 31, 183) !important;
 }
+
 .v-btn--disabled.v-btn--variant-elevated .v-btn__overlay, .v-btn--disabled.v-btn--variant-flat .v-btn__overlay {
     opacity: 0.1;
 }
