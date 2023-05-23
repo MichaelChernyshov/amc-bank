@@ -16,7 +16,7 @@ export default {
             theme="dark"
             class="rounded-lg card-hover-two bg-cl"
           >
-            <div class="d-flex flex-no-wrap justify-space-between">
+            <div class="d-flex flex-no-wrap justify-space-between card-flex">
               <div>
                 <v-card-title class="text-body-1 text-uppercase">
                   {{cardName}}
@@ -53,6 +53,12 @@ export default {
 </template>
 
 <style lang="scss">
+.img-size {
+    @include extra-small {
+      max-inline-size: 80%;
+    max-block-size: 80%;
+    }
+}
 .debit__welcome-container {
   padding-bottom: 3%;
 }
@@ -130,7 +136,7 @@ export default {
     }
 }
 
-.d-flex {
+.card-flex.d-flex {
   align-items: center;
   @include extra-small {
     flex-direction: column;

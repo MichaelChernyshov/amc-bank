@@ -14,7 +14,7 @@
             <v-chip-group>
                 <v-chip>Good %</v-chip> <v-chip>Without taxes</v-chip> <v-chip>Without fees</v-chip>
             </v-chip-group>
-            <div class="desc-dep d-flex flex-row" style="width: 300px;">
+            <div class="desc-dep d-flex flex-row">
                 <p>up to 5.0%</p>
                 <p>from 500 euro</p>
                 <p>from 1 month</p>
@@ -26,9 +26,11 @@
 
 <style lang="scss">
 .desc-dep {
-
     p {
         padding-right: 15%;
+        &:last-child {
+            padding-right: 0;
+        }
     }
 }
 .qq {
