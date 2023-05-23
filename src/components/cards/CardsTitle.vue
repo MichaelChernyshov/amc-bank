@@ -33,12 +33,44 @@ export default {
         font-size: 28px;
         font-weight: 300;
         word-spacing: 3px;
+
+    @include large {
+        font-size: 50px;
+    }
+    @include medium {
+        font-size: 35px;
+      }
+      @include small {
+        font-size: 25px;
+      }
+      @include extra-small {
+        font-size: 20px;;
+      }
+      @include x-extra-small {
+        font-size: 20px;
+      }
     }
 
     p {
         text-align: center;
         font-weight: 300;
         word-spacing: 2px;
+
+      @include large {
+        font-size: 30px;
+      }
+      @include medium {
+        font-size: 20px;
+      }
+      @include small {
+        font-size: 15px;
+      }
+      @include extra-small {
+        font-size: 10px;;
+      }
+      @include x-extra-small {
+        font-size: 10px;
+      }
     }
 }
 </style>

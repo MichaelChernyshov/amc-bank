@@ -12,7 +12,7 @@
 
 <template>
     <v-footer class="d-flex flex-column">
-      <div class="d-flex w-100 px-4">
+      <div class="d-flex w-100 px-4 align-center">
         <div class="px-4 py-2 w-100 footer-text">
         {{ new Date().getFullYear() }} AMC - Bank
         </div>
@@ -31,11 +31,37 @@
 <style lang="scss">
 .v-footer {
     color: white !important;
-    padding: 0 !important;
+    padding: 5% 0 0 !important;
     background: none !important;
 }
 .footer-text {
     font-size: 10px;
     color: #BDBDBD;
+    @include large {
+        font-size: 1.5rem;    
+    }
+    @include medium {
+        font-size: 1.2rem;    
+    }
+    @include small {
+        font-size: 1rem;    
+    }
+    @include extra-small {
+        font-size: 0.8rem;    
+    }
+}
+
+.v-icon--size-default {
+  font-size: 0.7rem; 
+
+  @include large {
+        font-size: 1.8rem !important;    
+    }
+    @include medium {
+        font-size: 1.5rem !important;    
+    }
+    @include small {
+        font-size: 1.5rem !important;    
+    }
 }
 </style>

@@ -127,8 +127,7 @@
 
 <style lang="scss">
 .card-order {
-  padding-top: 5%;
-  height: 100vh;
+  padding-top: 2%;
 }
 .section__order {
   display: flex;
@@ -143,9 +142,26 @@
     background-color: rgba(21, 74, 207, 0.15);
     border-radius: 10px;
 
+    @include large {
+        width: 60%;
+      }
+    @include medium {
+        width: 70%;
+      }
+      @include extra-small {
+        width: 80%;
+      }
+
     h6 {
-      padding-bottom: 5%;
+      padding-bottom: 1%;
       text-align: center;
+
+      @include large {
+        font-size: 2rem;
+      }
+      @include extra-small {
+        font-size: 1rem;
+      }
     }
 }
 }
@@ -154,15 +170,36 @@
 
   label {
     font-size: 8px;
+
+    @include large {
+        font-size: 20px;
+    }
+    @include extra-small {
+      font-size: 14px;
+      }
   }
   input {
     font-size: 8px;
     min-height: 8px;
+
+    @include large {
+        font-size: 25px;
+      }
+      @include extra-small {
+      font-size: 14px;
+      }
   }
 }
 
 .v-field--active {
   font-size: 10px;
+
+  @include large {
+        font-size: 18px;
+  }
+  @include extra-small {
+        font-size: 14px;
+  }
 }
 
 .v-field__input {
@@ -171,11 +208,27 @@
 
 .v-input--density-default {
   --v-input-padding-top: 5px !important;
-  --v-input-control-height: 30px !important;
+  --v-input-control-height: 10px !important;
+
+  @include large {
+    --v-input-padding-top: 25px !important;
+    --v-input-control-height: 10px !important;
+  }
+  @include extra-small {
+    --v-input-padding-top: 10px !important;
+    --v-input-control-height: 10px !important;
+  }
 }
 
 .v-counter {
   font-size: 7px; 
+
+  @include large {
+    font-size: 20px;
+  }
+  @include extra-small {
+    font-size: 5px;
+  }
 }
 
 .v-messages {
@@ -185,6 +238,13 @@
 .v-selection-control {
   label {
     font-size: 8px;
+
+    @include large {
+    font-size: 20px;
+    }
+    @include extra-small {
+    font-size: 10px;
+  }
   }
 }
 .buttons {
@@ -193,6 +253,22 @@
       font-size: 8px;
       padding: 5px;
       color: black;
+
+      @include large {
+        font-size: 20px; 
+      }
+      @include medium {
+        font-size: 14px; 
+      }
+      @include small {
+        font-size: 14px; 
+      }
+      @include extra-small {
+        font-size: 14px;
+      }
+      @include x-extra-small {
+        font-size: 12px;
+      }
     }
   }
 }
@@ -204,13 +280,44 @@
 
 .v-list-item--density-default.v-list-item--one-line {
   min-height: 20px;
+
+  @include large {
+    min-height: 60px;
+  }
+  @include extra-small {
+    min-height: 30px;
+  }
 }
 
 .v-list-item-title {
   font-size: 8px;
+  @include large {
+    font-size: 20px;
+  }
+  @include extra-small {
+    font-size: 15px;
+  }
 }
 
 .v-icon--size-default {
   font-size: 15px;
+
+  @include large {
+    font-size: 30px;
+  }
+  @include extra-small {
+    font-size: 20px;
+  }
+}
+
+.v-input__prepend, .v-input__append {
+  padding-top: 35px;
+  @include extra-small {
+    padding-top: 10px;
+  }
+}
+
+.v-field--variant-plain.v-field, .v-field--variant-underlined.v-field {
+  --v-field-padding-top: 5px;
 }
 </style>

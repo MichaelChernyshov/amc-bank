@@ -26,14 +26,6 @@ const router = createRouter({
       component: () => import('../views/CreditView.vue')
     },
     {
-      path: '/loans',
-      name: 'loans',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/LoansView.vue')
-    },
-    {
       path: '/deposit',
       name: 'deposit',
       // route level code-splitting
@@ -48,6 +40,14 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/eSIMView.vue')
+    },
+    {
+      path: '/login',
+      name: 'login',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/LoginPageView.vue')
     }
   ]
 })
