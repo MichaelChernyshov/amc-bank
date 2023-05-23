@@ -84,7 +84,7 @@ export default {
             
             @include large {
                 width: 9rem;
-                height: 3rem;
+                height: 4rem;
             }
             @include medium {
                 width: 7rem;
