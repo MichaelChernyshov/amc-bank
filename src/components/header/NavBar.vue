@@ -17,7 +17,7 @@ export default {
     <v-toolbar app color="transparent px-9 py-5">
       <v-toolbar-title>
         <div class="nav-logo ">
-                <a href="/amc-bank">
+                <a href="/amc-bank/">
                     <div class="logo"></div>
                 </a>
         </div>
