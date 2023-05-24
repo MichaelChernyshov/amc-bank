@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template> 
-    <v-toolbar app color="transparent px-9 py-5">
+    <v-toolbar app color="transparent ppx-9 ppy-5">
       <v-toolbar-title>
         <div class="nav-logo ">
                 <a href="/">
@@ -67,6 +67,24 @@ export default {
 </template>
 
 <style lang="scss">
+.ppy-5 {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+
+  @include extra-small {
+    padding-top: 0px !important;
+  }
+}
+
+.ppx-9 {
+  padding-right: 36px !important;
+  padding-left: 36px !important;
+
+  @include extra-small {
+    padding-right: 1px !important;
+    padding-left: 1px !important;
+  }
+}
 .entr-btn.entr-border {
     border: 3px solid rgb(12, 24, 81);
     border-radius: 28px;

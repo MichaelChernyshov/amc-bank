@@ -11,7 +11,7 @@
 </script>
 
 <template>
-    <v-footer class="d-flex flex-column">
+    <v-footer class="d-flex">
       <div class="d-flex w-100 px-4 align-center">
         <div class="px-4 py-2 w-100 footer-text">
         {{ new Date().getFullYear() }} AMC - Bank
@@ -19,7 +19,7 @@
         <v-btn
           v-for="icon in icons"
           :key="icon"
-          class="mx-4"
+          class="mx-4 buttons"
           :icon="icon"
           variant="plain"
           size="x-small"
@@ -47,7 +47,7 @@
         font-size: 1rem;    
     }
     @include extra-small {
-        font-size: 0.8rem;    
+        font-size: 0.6rem;    
     }
 }
 
@@ -62,6 +62,9 @@
     }
     @include small {
         font-size: 1.5rem !important;    
+    }
+    @include extra-small {
+        font-size: 1rem !important;    
     }
 }
 </style>
