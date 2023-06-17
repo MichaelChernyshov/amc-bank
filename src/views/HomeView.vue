@@ -11,13 +11,13 @@ import GuidesMain from '../components/GuidesMain.vue';
     pageTitle="Using guide" 
     fCardTitle="Instalation" 
     fCardDescription="You can download our app on your device" 
-    fImgLink="../../public/images/icons/iphone-icon.svg" 
+    fImgLink="/images/icons/iphone-icon.svg" 
     sCardTitle="Registration" 
     sCardDescription="Fill all forms to end registration" 
-    sImgLink="../../public/images/icons/folderGuide.svg" 
+    sImgLink="/images/icons/folderGuide.svg" 
     tCardTitle="Using" 
     tCardDescription="Now you can start using you cards in app of our bank" 
-    tImgLink="../../public/images/icons/CardsGuide.svg"></GuidesMain>
+    tImgLink="/images/icons/CardsGuide.svg"></GuidesMain>
   </main>
 </template>
 
