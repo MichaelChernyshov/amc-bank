@@ -11,7 +11,7 @@
         </div>
 
         <div class="ma-4 w-50 d-flex justify-center">
-            <img src="/src/assets/images/icons/simfin.png" alt="Sim icon" class="sim-icon">
+            <img src="../../../public/images/icons/simfin.png" alt="Sim icon" class="sim-icon">
         </div>
     </div>
 </template>

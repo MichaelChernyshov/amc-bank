@@ -5,7 +5,7 @@
     <div class="d-flex align-center bg-cl rounded-s-xl pl-10 pr-10 py-10 card-dep">
         <div class="d-flex justify-center align-center pr-11">
             <span class="pr-10">
-                <img src="/src/assets/images/icons/deposit/bank.svg" class="qq">
+                <img src="../../../public/images/icons/deposit/bank.svg" class="qq">
             </span>
         </div>
         <div class="w-75">
@@ -39,7 +39,7 @@
         </div>
         <div class="d-flex justify-center align-center">
             <span class="pr-10">
-                <img src="/src/assets/images/icons/deposit/percent.svg" class="qq">
+                <img src="../../../public/images/icons/deposit/percent.svg" class="qq">
             </span>
         </div>
     </div>

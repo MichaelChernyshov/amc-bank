@@ -5,7 +5,7 @@
     <div class="d-flex flex-row align-center bg-cl rounded-s-xl pl-10 pr-10 py-10">
         <div class="d-flex justify-center align-center pr-11">
             <span class="pr-10">
-                <img src="/src/assets/images/icons/deposit/safe.svg" class="qq">
+                <img src="../../../public/images/icons/deposit/safe.svg" class="qq">
             </span>
         </div>
         <div class="w-75">

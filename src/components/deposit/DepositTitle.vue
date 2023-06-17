@@ -24,7 +24,7 @@ import DepositePremium from './DepositPremium.vue';
         </div>
 
         <div class="ma-4 w-50 d-flex justify-center align-center">
-          <img src="/src/assets/images/icons/deposit.svg" alt="Deposit icon" class="try">
+          <img src="../../../public/images/icons/deposit.svg" alt="Deposit icon" class="try">
         </div>
     </div>
 

@@ -96,7 +96,7 @@ export default {
    .nav-logo {
 
         .logo {
-            background: no-repeat url(/src/assets/images/logo/logoWhite.svg);
+            background: no-repeat url(../../../public/images/logo/logoWhite.svg);
             width: 6rem;
             height: 3rem;
             
