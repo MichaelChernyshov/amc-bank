@@ -14,7 +14,7 @@
         </div>
         <div class="img-qr w-50 d-flex justify-center align-center">
             <span class="qr-icon">
-                <img src="/src/assets/images/icons/qr-code2.svg" alt="" srcset="">
+                <img src="../../../public/images/icons/qr-code2.svg" alt="QR-code image">
             </span>
         </div>
     </div>
