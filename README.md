@@ -1,6 +1,6 @@
 # AMC Bank
 
-![Logo](./src/assets/images/logo/logoBlack.svg)
+![Logo](./public/images/logo/logoBlack.svg)
 
 This is a perfect bank for you. You can describe all details on the website.
 
